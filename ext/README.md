@@ -946,6 +946,11 @@ Examples:
 
 **Introduced in version 1**
 
+**Revised in version 4**: the formatting behavior was updated to adhere to the
+[CEL string extensions spec](https://github.com/google/cel-spec/blob/master/doc/extensions/strings.md).
+Locale support was removed in this revision: the `StringsLocale` option is
+ignored at version 4 and above.
+
 Returns a new string with substitutions being performed, printf-style.
 
 The valid formatting clauses are:
